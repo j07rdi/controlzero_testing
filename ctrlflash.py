@@ -9,10 +9,10 @@ from trunk import *
 # then install requiered/en.stm32cubeprog_v2-4-0
 # sudo ./SetupSTM32CubeProgrammer-2.4.0.linux
 # sudo apt install python3-pip 
-#sudo pip3 install serial, colored, 
+#sudo pip3 install pyserial, colored, pymavlink
 #sudo adduser $USER dialout
 #If you are getting an error with permissions try:
-#sudo chmod 666 /dev/bus/usb/001/008
+#sudo chmod 666 /dev/bus/usb/001/*
 
 
 IO_test = 0
